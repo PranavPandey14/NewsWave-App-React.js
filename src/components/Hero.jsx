@@ -8,8 +8,9 @@ const Hero = () => {
     >
       <h1 style={{ fontsize: "50px", color: "#1877F2" }}>News Wave</h1>
       <h5 style={{ fontsize: "50px", color: "#B2BEB5" }}>
-      Stay Informed : <span className="text-danger ">Anytime </span>,<span className="text-danger"> Anywhere</span>
+      Stay Informed
       </h5>
+      <h6><p className="text-danger"> Anytime , Anywhere</p></h6>
     </div>
   );
 };

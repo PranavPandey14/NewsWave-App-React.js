@@ -25,9 +25,9 @@ const FetchData = ({ cat }) => {
           ? Data.map((items, i) => (
               <div
                 key={i}
-                className="container my-3 p-3"
+                className="container my-3 p-3 "
                 style={{
-                  width: "700px",
+                  // width: "700px",
                   boxShadow: "2px 2px 10px silver",
                   borderRadius: "10px",
                 }}
